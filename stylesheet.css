@@ -1,0 +1,5 @@
+/* make sure that all elements have their seperate colors so we can debug them if they go haywire. */
+
+body {
+    background-color: blanchedalmond;
+}
