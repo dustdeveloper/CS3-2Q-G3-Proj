@@ -3,3 +3,7 @@
 body {
     background-color: blanchedalmond;
 }
+
+header div {
+    background-color:burlywood; /*remove*/
+}
