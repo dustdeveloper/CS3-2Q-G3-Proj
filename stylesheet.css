@@ -7,3 +7,18 @@ body {
 header div {
     background-color:burlywood; /*remove*/
 }
+
+.footing {
+    color: red;
+    display:block;
+    position: relative;
+}
+
+.footLeft {
+    top: -1.251em;
+}
+
+.footRight {
+    text-align: right;
+}
+
