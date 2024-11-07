@@ -51,6 +51,8 @@ body {
     padding: 0;
 
     background-image: white;
+    color: transparent;
+    background-clip: text;
 }
 
 .headingSubtitle {
