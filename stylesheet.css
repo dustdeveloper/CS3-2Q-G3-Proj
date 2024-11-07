@@ -1,4 +1,4 @@
-/* make sure that all elements have their seperate colors so we can debug them if they go haywire. */
+
 
 body {
     background-color: blanchedalmond;
@@ -7,11 +7,88 @@ body {
 .debugDiv {
     background-color:burlywood; /*remove*/
 }
+/* unholy mess */
+.corner {
+    border-radius: 10px;
+}
+.cornerDownLeft {
+    border-radius: 0px 0px 10px 0px;
+}
+.cornerDownRight {
+    border-radius: 0px 0px 0px 10px;
+}
 
 .mainUI { /* controls the size of the main ui */
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* heading */
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.headingImage {
+    float:center;
+    padding: 10px;
+}
+
+.theTitles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headingTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    flex:0.5;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.headingSubtitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+    background-image: linear-gradient(red, blue);
+    color: transparent;
+    background-clip: text;
+}
+
+.headingInput {
+    margin: 30px;
+    flex: 1.5;
+}
+
+/* navigation */
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    background-color: blueviolet;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: lighter;
+    font-style: italic;
+    color: wheat;
+    flex: 1;
+}
+
+.navigation li:hover {
+    font-weight: bold;
 }
 
 /* article */
@@ -40,7 +117,19 @@ article {
     flex: 3;
 }
 
+.articleElement p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    text-align: justify;
+}
+
+.articleElement h1, .articleElement h2, .articleElement h3, .articleElement h4 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
 /* footer stuff */
+
 #footerText {
     text-align: center;
 }
