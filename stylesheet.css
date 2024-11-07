@@ -4,21 +4,39 @@ body {
     background-color: blanchedalmond;
 }
 
-header div {
+.debugDiv {
     background-color:burlywood; /*remove*/
 }
 
-.footing {
-    color: red;
-    display:block;
-    position: relative;
+.mainUI { /* controls the size of the main ui */
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.footLeft {
-    top: -1.251em;
+/* article */
+
+article {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.footRight {
-    text-align: right;
+.articleElement {
+    background-color: darkkhaki;
+    margin: 5px;
+}
+
+.mainSection {
+    flex: 6;
+}
+
+.sideElement {
+    background-color:darksalmon;
+    flex: 2;
+}
+
+/* footer stuff */
+#footerText {
+    text-align: center;
 }
 
