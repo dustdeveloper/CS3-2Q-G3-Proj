@@ -26,13 +26,18 @@ article {
     margin: 5px;
 }
 
+.headerElement {
+    background-color: beige;
+    flex: 1;
+}
+
 .mainSection {
     flex: 6;
 }
 
 .sideElement {
     background-color:darksalmon;
-    flex: 2;
+    flex: 3;
 }
 
 /* footer stuff */
