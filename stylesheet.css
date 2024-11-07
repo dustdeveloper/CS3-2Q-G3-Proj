@@ -45,6 +45,7 @@ body {
 
 .headingTitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
     flex:0.5;
     text-align: left;
     margin: 0;
