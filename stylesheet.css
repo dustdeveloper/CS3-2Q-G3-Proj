@@ -5,7 +5,7 @@ body {
 }
 
 .debugDiv {
-    background-color:burlywood; /*remove*/
+    background-color:#1E3163; /*remove*/
 }
 /* unholy mess */
 .corner {
@@ -104,7 +104,7 @@ article {
 }
 
 .headerElement {
-    background-color: #1E3163;
+    background-color: khaki;
     flex: 1;
 }
 
