@@ -83,7 +83,7 @@ body {
     font-family: Helvetica;
     font-weight: lighter;
     font-style: italic;
-    color: wheat;
+    color: white;
     flex: 1;
 }
 
@@ -99,7 +99,7 @@ article {
 }
 
 .articleElement {
-    background-color: darkkhaki;
+    background-color: #F8F8F8;
     margin: 5px;
 }
 
@@ -113,7 +113,7 @@ article {
 }
 
 .sideElement {
-    background-color:darksalmon;
+    background-color: #F8F8F8;
     flex: 3;
 }
 
