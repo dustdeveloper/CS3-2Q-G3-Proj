@@ -57,7 +57,7 @@ body {
     margin: 0;
     padding: 0;
 
-    background-image: linear-gradient(pink, blue);
+    background-image: linear-gradient(white, blue);
     color: transparent;
     background-clip: text;
 }
