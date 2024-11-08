@@ -11,6 +11,12 @@ body {
 .corner {
     border-radius: 10px;
 }
+.cornerTop {
+    border-radius: 10px 10px 0 0;
+}
+.cornerBottom {
+    border-radius: 0 0 10px 10px;
+}
 .cornerDownLeft {
     border-radius: 0px 0px 10px 0px;
 }
@@ -45,6 +51,7 @@ body {
 
 .headingTitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #F8F8F8;
     flex:0.5;
     text-align: left;
     margin: 0;
@@ -92,6 +99,11 @@ body {
 }
 
 /* article */
+
+.articleContainer {
+    box-shadow: 0 0 0 2px gray ;
+    background-color: rgba(117, 190, 218, 0.5);
+}
 
 article {
     display: flex;
