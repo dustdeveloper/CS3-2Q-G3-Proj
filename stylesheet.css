@@ -97,6 +97,7 @@ body {
 
 .navigation li:hover {
     font-weight: bold;
+    background-color: #1E3163;
 }
 
 /* article */
