@@ -58,6 +58,7 @@ body > h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: x-large;
+
 }
 
 .section {
@@ -67,7 +68,7 @@ body > h1 {
     text-align: justify;
 }
 
-.article-row {
+.article-row, .description{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -77,11 +78,13 @@ body > h1 {
     height: 400px;
     margin: 10px;
 
+    transition: transform 0.5s;
     border-radius: 5px;
     background-image: linear-gradient(to bottom, rgba(255,153,153,0) 30%,rgba(255,153,153,0) 50%,rgb(183, 183, 183) 99%), url(eye.jpg);
 }
+
 .article-row div:hover {
-    background-image: url(eye.jpg);
+    transform: scale(1.02);
 }
 
 .article-row div h3 {
@@ -93,4 +96,36 @@ body > h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: x-large;
+}
+
+.description, .desc-2 {
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.desc-2 {
+    flex-direction: row-reverse;
+}
+
+.description #title {
+    font-size:5em;
+    text-align: right;
+
+    padding: 70px 0;
+    margin-right: 10px;
+
+    background-image: linear-gradient(to right, rgba(255,153,153,0) 30%,rgba(255,153,153,0) 50%,rgb(183, 183, 183) 99%), url(eye.jpg);
+    flex: 5;
+}
+
+.desc-2 #title {
+    text-align: left;
+    background-image: linear-gradient(to left, rgba(255,153,153,0) 30%,rgba(255,153,153,0) 50%,rgb(183, 183, 183) 99%), url(eye.jpg);
+}
+
+.description #info {
+    text-align: justify;
+    margin: 30px;
+    
+    flex: 5;
 }
