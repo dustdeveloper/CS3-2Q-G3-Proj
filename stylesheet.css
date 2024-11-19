@@ -66,6 +66,7 @@ body > h1 {
 }
 .section > p {
     text-align: justify;
+    font-size: large;
 }
 
 .article-row, .description{
@@ -125,7 +126,8 @@ body > h1 {
 
 .description #info {
     text-align: justify;
+    font-size: large;
+
     margin: 30px;
-    
     flex: 5;
 }
