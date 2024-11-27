@@ -1,0 +1,29 @@
+* {
+    background-color: transparent;
+}
+
+header { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+header img {
+    flex: 0 0 5em;
+    padding: 1em;
+
+    object-fit: cover;
+    width: 5em;
+    height: 5em;
+}
+
+header div {
+    flex: 8;
+    background-color: rebeccapurple;
+}
+
+header div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
