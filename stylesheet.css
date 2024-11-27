@@ -24,6 +24,20 @@ header div {
 
 header div ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    overflow: hidden;
+    display: inline;
+
+    margin: auto;
+    padding: auto;
+}
+
+header li a {
+    float: left;
+}
+
+header div li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
