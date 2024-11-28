@@ -36,14 +36,19 @@ ul {
 
 .navigation > ul li {
     text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-weight: lighter;
-    font-style: italic;
 
-    color: #F5F5F7;
     flex: 1;
     background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(112, 92, 83));
     line-height: 40px;
+}
+
+.navigation > ul li a {
+    color: #F5F5F7;
+
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: italic;
 }
 
 .navigation > ul li:hover {
@@ -86,6 +91,10 @@ body > h1 {
 
 .article-row div:hover {
     transform: scale(1.02);
+}
+
+.article-row div:active {
+    filter: blur(1px);
 }
 
 .article-row div h3 {
