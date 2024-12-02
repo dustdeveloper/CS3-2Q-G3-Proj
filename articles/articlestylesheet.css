@@ -67,11 +67,23 @@ article {
 article header h1 {
     text-align: left;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    margin-bottom: 0;
 }
+
+article header h3 {
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
 
 article section {
     padding-bottom: 2em;
+}
+
+article section p {
+    font-size: 1.2em;
 }
 
 article footer img {
